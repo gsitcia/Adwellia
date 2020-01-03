@@ -9,6 +9,8 @@ classes/
 
 .settings/
 bin/
+.classpath
+.project
 
 # fabric
 
