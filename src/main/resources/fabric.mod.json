@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "adwellia",
+  "version": "${version}",
+
+  "name": "Anglophysics",
+  "description": "This is a mod that tries to implement the Anglophysics from 'The Study of Anglophysics'.",
+  "authors": [
+    "Walter Mitty <gsitcia@gmail.com>"
+  ],
+  "contact": {
+    "homepage": "https://example.org/",
+    "sources": "https://github.com/gsitcia/Adwellia"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/adwellia/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.gsitcia.adwellia.Adwellia"
+    ]
+  },
+  "mixins": [
+    "mixins.adwellia.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.3",
+    "fabric": "*",
+    "minecraft": "1.14.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
